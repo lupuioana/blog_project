@@ -9,14 +9,13 @@ function App() {
     <div>
       <Navigation />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="blog_project/" element={<Home />} />
+        <Route path="blog_project/blogs" element={<Blogs />} />
         {/* <Route path="/blog/:idBlog" */}
         {/* https://jsonplaceholder.typicode.com/posts/1/comments */}
         {/* https://jsonplaceholder.typicode.com/guide/ */}
 
-        <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/*" element={<h1>NOT FOUND!</h1>} />
+        <Route path="blog_project/wishlist" element={<Wishlist />} />
       </Routes>
       <h2>Footer</h2>
       {/* FOOTER */}
